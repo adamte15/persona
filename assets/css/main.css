@@ -5,8 +5,11 @@ body {
 }
 
 
-/*body::-webkit-scrollbar {
-    width: 2em;
+body::-webkit-scrollbar {
+    width: 1.5em;
+    height:30px;
+
+    
 }
  
 body::-webkit-scrollbar-track {
@@ -14,9 +17,10 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: mediumvioletred;
+  background:linear-gradient(#2c3e50,#8e44ad);
   outline: 1px solid slategrey;
-} */
+  border-radius: 10px;
+}
 
 .wrapper {
     border:solid black 2px;
@@ -89,13 +93,15 @@ body::-webkit-scrollbar-thumb {
 
     
 }
-
+.slogantext {
+    font-size:25px;
+}
 .slut {
     grid-area: slut;
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 25px;
     width:100%;
     font-family: 'pontano sans', sans-serif;
 }
@@ -137,9 +143,9 @@ li {
 .linav {
     font-family: 'pontano sans', sans-serif;
     border:solid black 2px;
-    padding:10px;
+    padding:15px;
     border-radius: 5px;
-    width:50px;
+    width:150px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -200,12 +206,15 @@ footer {
     font-family: 'pontano sans', sans-serif;
 }
 
-.lisocial {
+.lisocial{
     border:solid black 2px;
+    display: flex;
+    justify-content: center;
     border-radius:3px;
     padding:15px;
     text-decoration-line: none;
     color:black;
+    width:150px;
     background-color:#ecf0f1;
     transform: all;
     transition-duration: 0.5s;
@@ -380,3 +389,69 @@ footer {
     animation-play-state: running;
     position:relative;
 }
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                WORLD WIDE WEB                               
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.headerwww {
+    font-family: 'pontano sans', sans-serif;
+    font-size: 30px;
+}
+
+.infowww {
+    font-family: 'pontano sans', sans-serif;
+    font-size:20px;
+    width:60%;
+    line-height: 40px;
+}
+
+.headerwww2 {
+    font-family: 'pontano sans', sans-serif;
+    font-size: 30px;
+
+}
+
+.infowww2 {
+     font-family: 'pontano sans', sans-serif;
+    font-size:20px;
+    width:60%;
+    line-height: 40px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                    KONTAKT                               
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.kontakth1 {
+    font-family: 'pontano sans', sans-serif;
+    font-size:50px;
+    margin-bottom:10px;
+    
+}
+
+.kontaktp {
+    font-family: 'pontano sans', sans-serif;
+    font-size:20px;
+    margin-top:0px;
+    padding-top:0px;
+    width:50%;
+}
+
+.kontaktaoss {
+    font-family: 'pontano sans', sans-serif;
+    font-size:40px;
+    display:flex;
+    justify-content: space-around;
+    width:87%;
+    line-height: 15px;
+}
+
+.faxnummer,.telefonnummer, .email {
+    
+    font-size: 30px;
+}
+
+
+
+
